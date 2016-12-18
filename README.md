@@ -1,5 +1,5 @@
 # deviceReady
-Phonegap DeviceReady Not Fire
-Clone or download it,
-1) do npm install
-2) do bower install
+Phonegap DeviceReady Not Fire: 
+1) Clone or download it,
+2) do npm install
+3) do bower install
