@@ -16374,7 +16374,7 @@ define('transitions/entrance',['durandal/system', 'durandal/composition', 'jquer
 define('text!views/notfound.html',[],function () { return '<div id="eEbody">\r\n    <div class="Release body info black table">\r\n        <div class="cell">\r\n            <div class="containerD">\r\n                <div class="msg">Not Found</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>';});
 
 
-define('text!views/plugins.html',[],function () { return '<div id="content" style="font-size: 30px; align-content: center">\r\n    <div id="deviceProperties"/>\r\n</div>';});
+define('text!views/plugins.html',[],function () { return '<div id="content" style="width: 100%; text-align: center; font-size: 30px;">\r\n    <div style="display: inline-block;" id="deviceProperties"/>\r\n</div>';});
 
 
 define('text!views/shell.html',[],function () { return '<div class="eEntity">\r\n    <div data-bind="router: { transition:\'entrance\' }"></div>\r\n </div>\r\n';});
