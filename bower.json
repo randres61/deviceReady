@@ -1,0 +1,26 @@
+{
+  "name": "Neix.tags",
+  "description": "Redux version for Deviready event issue",
+  "main": "index.html",
+  "authors": [
+    "neix.tags.cat"
+  ],
+  "license": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "Durandal": "durandal#^2.1.0",
+    "knockout": "^3.4.0",
+    "jquery": "^2.2.4",
+    "moment": "^2.13.0",
+    "q": "1.0.1"
+  },
+  "resolutions": {
+    "jquery": "^2.2.4"
+  }
+}
