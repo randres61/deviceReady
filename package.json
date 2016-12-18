@@ -1,7 +1,14 @@
 {
+  "name": "deviceready",
+  "description": "Problems with deviceready on IOS devices",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-durandal": "^1.1.7",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^3.2.0"
+  },
+  "scripts": {
+    "server": "gulp server",
+    "build": "gulp build"
   }
 }

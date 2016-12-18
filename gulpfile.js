@@ -1,10 +1,11 @@
-var gulp = require('gulp');
-var durandal = require('gulp-durandal');
-var webserver = require('gulp-webserver');
+var gulp = require('gulp'),
+    durandal = require('gulp-durandal'),
+    webserver = require('gulp-webserver'),
+    zip = require('gulp-zip');
 
-gulp.task('build', function () {
+gulp.task('minify', function () {
     return durandal({
-        main: 'main30700.js',
+        main: 'main.js',
         rjsConfigAdapter: function(rjsConfig) {
             rjsConfig.paths = {
                 'breeze': 'empty:'
@@ -14,8 +15,7 @@ gulp.task('build', function () {
             return rjsConfig;
         },
         minify: false
-    })
-        .pipe(gulp.dest('./release'));
+    }).pipe(gulp.dest('./build/www/app'));
 });
 
  
@@ -29,3 +29,9 @@ gulp.task('server', function() {
         open: true
     }));
 });
+
+gulp.task('zip', ['minify'], function() {
+    return gulp.src('./build/www/**/*.*').pipe(zip('www.zip')).pipe(gulp.dest('./build/version'));
+});
+
+gulp.task('build', ['minify', 'zip']); 
