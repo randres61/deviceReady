@@ -1,0 +1,1290 @@
+/* ======================================================== */
+/*                       secot style                        */
+/* ======================================================== */
+#secot .eEtopbar,
+#secot .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(36,96,146,0.9);
+    }
+#secot .st-refresh-pullrefresh {
+    background-color:rgba(36,96,146,0.5);
+    }
+#secot .eEntityForm legend,
+#secot .infolink,
+#secot #canFilter span.count,
+#secot .dropdown-menu > li > a.typevers span,
+#secot .dropdown-menu.contextmenu > li > a:focus,
+#secot .dropdown-menu.contextmenu > li > a:hover,
+#secot .dropdown-menu.contextmenu > .active > a:focus,
+#secot .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(36,96,146,1);
+    }
+#secot .eEntityForm legend {
+    border: 1px solid rgba(36,96,146,1);
+	}
+#secot .eEoptionText.moreinfo.selected,
+#secot .eEoptionText.allgender.selected,
+#secot .eEoptionText.femalegender.selected,
+#secot .eEoptionText.malegender.selected,
+#secot .eEoptionText.all.selected,
+#secot .eEoptionText.schedule.selected,
+#secot .eEoptionText.moreinfo.selected:active,
+#secot .eEoptionText.allgender.selected:active,
+#secot .eEoptionText.femalegender.selected:active,
+#secot .eEoptionText.malegender.selected:active,
+#secot .eEoptionText.all.selected:active,
+#secot .eEoptionText.schedule.selected:active {
+    /*border-bottom: 4px solid rgba(49,190,255,1);*/
+    }
+#secot .eEoptionText.moreinfo.selected i,
+#secot .eEoptionText.allgender.selected i,
+#secot .eEoptionText.femalegender.selected i,
+#secot .eEoptionText.malegender.selected i,
+#secot #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(36,96,146,1);
+    }
+#secot .dropdown-menu.contextmenu > li:first-child:before,
+#secot .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(36,96,146,1);
+    border-bottom:none;
+}
+
+#secot .bubble-border:before {
+    border-color: rgba(36,96,146,1) transparent;
+    }
+#secot .bubble-border {
+    border-color: rgba(36,96,146,1);
+    }
+
+#secot #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#secot #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#secot .eEoptionMenu.menu2 svg,
+#secot .eEoptionMenu1.instantinfo1 svg,
+#secot .eEoptionMenu1.folder svg,
+#secot .eEoptionMenu1.userview svg,
+#secot .eEoptionMenu1.add svg,
+#secot .eEoptionMenu1.email svg,
+#secot .eEoptionMenu1.menu svg,
+#secot .eEoptionMenu1.edit svg,
+#secot .eEoptionMenu1.clone svg,
+#secot .eEoptionMenu1.trash svg {
+    fill:rgba(36,96,146,1);
+    }
+
+/* Provisional */
+#secot #eEbody .Release.body.info.black .portrait.Secot.e18 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/secot.svg'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/secot.svg'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/secot.svg'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/secot.svg'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/secot.svg'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#secot #eEbody .body.Release.statement.withlogo.e18:after {
+    background-image: url(../img/secot.svg);
+    }
+#secot #eEbody .Item .TypeEntity.Schedule.Activity,
+#secot .eEoptionMenu1.instantinfo,
+#secot #eEbottombar .eEbutton {
+    background-image: -webkit-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -moz-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -ms-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -o-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: linear-gradient(to top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    }
+#secot #eEbottombar99 .eEbutton {
+    color: #fff;
+    text-shadow:1px 1px 0px rgba(0,0,0,1);
+    }
+#secot #eEbottombar .eEbutton.right {
+	border-right:1px solid rgba(0,0,0,0.4);		
+    }
+#secot .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#secot .eEoptionMenu1.instantinfo svg {
+    fill:rgba(255,255,255,1);
+    }
+#secot #eEbody .Item:active,
+#secot #repeatItems .Item:active {
+    background:rgba(36,96,146,0.5);
+}
+
+
+/* ======================================================== */
+/*                       Blue1 style                         */
+/* ======================================================== */
+#blue1 .eEtopbar,
+#blue1 .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(36,96,146,0.9);
+    }
+#blue1 .st-refresh-pullrefresh {
+    background-color:rgba(36,96,146,0.5);
+    }
+#blue1 .eEntityForm legend,
+#blue1 .infolink,
+#blue1 #canFilter span.count,
+#blue1 .dropdown-menu > li > a.typevers span,
+#blue1 .dropdown-menu.contextmenu > li > a:focus,
+#blue1 .dropdown-menu.contextmenu > li > a:hover,
+#blue1 .dropdown-menu.contextmenu > .active > a:focus,
+#blue1 .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(36,96,146,1);
+    }
+#blue1 .eEntityForm legend {
+    border: 1px solid rgba(36,96,146,1);
+	}
+#blue1 .eEoptionText.moreinfo.selected,
+#blue1 .eEoptionText.allgender.selected,
+#blue1 .eEoptionText.femalegender.selected,
+#blue1 .eEoptionText.malegender.selected,
+#blue1 .eEoptionText.all.selected,
+#blue1 .eEoptionText.schedule.selected,
+#blue1 .eEoptionText.moreinfo.selected:active,
+#blue1 .eEoptionText.allgender.selected:active,
+#blue1 .eEoptionText.femalegender.selected:active,
+#blue1 .eEoptionText.malegender.selected:active,
+#blue1 .eEoptionText.all.selected:active,
+#blue1 .eEoptionText.schedule.selected:active {
+    /*border-bottom: 4px solid rgba(49,190,255,1);*/
+    }
+#blue1 .eEoptionText.moreinfo.selected i,
+#blue1 .eEoptionText.allgender.selected i,
+#blue1 .eEoptionText.femalegender.selected i,
+#blue1 .eEoptionText.malegender.selected i,
+#blue1 #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(36,96,146,1);
+    }
+#blue1 .dropdown-menu.contextmenu > li:first-child:before,
+#blue1 .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(36,96,146,1);
+    border-bottom:none;
+}
+
+#blue1 .bubble-border:before {
+    border-color: rgba(36,96,146,1) transparent;
+    }
+#blue1 .bubble-border {
+    border-color: rgba(36,96,146,1);
+    }
+
+#blue1 #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#blue1 #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#blue1 .eEoptionMenu.menu2 svg,
+#blue1 .eEoptionMenu1.instantinfo1 svg,
+#blue1 .eEoptionMenu1.folder svg,
+#blue1 .eEoptionMenu1.userview svg,
+#blue1 .eEoptionMenu1.add svg,
+#blue1 .eEoptionMenu1.email svg,
+#blue1 .eEoptionMenu1.menu svg,
+#blue1 .eEoptionMenu1.edit svg,
+#blue1 .eEoptionMenu1.clone svg,
+#blue1 .eEoptionMenu1.trash svg {
+    fill:rgba(36,96,146,1);
+    }
+
+/* Provisional */
+#eEbody .Item .TypeEntity.Athletics.e29 {
+	background-image:url("../img/jas.png");
+    /*background-size:60%;*/
+}
+#blue1 #eEbody .Release.body.info.black .portrait.Athletics.e29 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/jas.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/jas.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/jas.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/jas.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/jas.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#blue1 #eEbody .body.Release.statement.withlogo.e29:after {
+    background-image: url(../img/jas.png);
+    }
+#eEbody .Item .TypeEntity.Football.e24 {
+	background-image:url("../img/molinos.png");
+    background-size:60%;
+}
+#blue1 #eEbody .Release.body.info.black .portrait.Football.e24 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/molinos.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/molinos.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/molinos.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/molinos.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/molinos.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#blue1 #eEbody .body.Release.statement.withlogo.e24:after {
+    background-image: url(../img/molinos.png);
+    }
+#blue1 #eEbody .Item .TypeEntity.Schedule.Activity,
+#blue1 .eEoptionMenu1.instantinfo,
+#blue1 #eEbottombar .eEbutton {
+    background-image: -webkit-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -moz-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -ms-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: -o-linear-gradient(top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    background-image: linear-gradient(to top, rgba(36,96,146,0.8), rgba(36,96,146,1));
+    }
+#blue1 #eEbottombar99 .eEbutton {
+    color: #fff;
+    text-shadow:1px 1px 0px rgba(0,0,0,1);
+    }
+#blue1 #eEbottombar .eEbutton.right {
+	border-right:1px solid rgba(0,0,0,0.4);		
+    }
+#blue1 .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#blue1 .eEoptionMenu1.instantinfo svg {
+    fill:rgba(255,255,255,1);
+    }
+#blue1 #eEbody .Item:active,
+#blue1 #repeatItems .Item:active {
+    background:rgba(36,96,146,0.5);
+}
+
+/* ======================================================== */
+/*              Orquestra mataró style                      */
+/* ======================================================== */
+#orqmataro .eEtopbar {
+    background-color:rgba(0,0,0,0.9);
+    }
+#orqmataro .st-refresh-pullrefresh {
+    background-color:rgba(248,248,248,0.3);
+    }
+#orqmataro .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(248,248,248,1);
+    }
+#orqmataro .dropdown-menu.contextmenu > li > a:focus,
+#orqmataro .dropdown-menu.contextmenu > li > a:hover,
+#orqmataro .dropdown-menu.contextmenu > .active > a:focus,
+#orqmataro .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(255,255,255,0.9);
+    }
+#orqmataro .eEntityForm legend,
+#orqmataro .infolink,
+#orqmataro #canFilter span.count,
+#orqmataro .dropdown-menu > li > a.typevers span {
+    background-color: rgba(0,0,0,1);
+    }
+#orqmataro .eEntityForm legend {
+    border: 1px solid rgba(0,0,0,1);
+    text-shadow:none;
+	}
+#orqmataro .eEoptionText.moreinfo.selected i,
+#orqmataro .eEoptionText.allgender.selected i,
+#orqmataro .eEoptionText.femalegender.selected i,
+#orqmataro .eEoptionText.malegender.selected i,
+#orqmataro #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(0,0,0,1);
+    }
+#orqmataro .dropdown-menu.contextmenu > li:first-child:before,
+#orqmataro .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(255,255,255,1);
+    border-bottom:none;
+}
+#orqmataro .bubble-border:before {
+    border-color: rgba(0,0,0,0.9) transparent;
+    }
+#orqmataro .bubble-border {
+    border-color: rgba(0,0,0,0.9);
+    }
+#orqmataro #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#orqmataro #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#orqmataro .eEoptionMenu.menu2 svg,
+#orqmataro .eEoptionMenu1.instantinfo1 svg,
+#orqmataro .eEoptionMenu1.instantinfo svg,
+#orqmataro .eEoptionMenu1.folder svg,
+#orqmataro .eEoptionMenu1.userview svg,
+#orqmataro .eEoptionMenu1.add svg,
+#orqmataro .eEoptionMenu1.email svg,
+#orqmataro .eEoptionMenu1.menu svg,
+#orqmataro .eEoptionMenu1.edit svg,
+#orqmataro .eEoptionMenu1.clone svg,
+#orqmataro .eEoptionMenu1.trash svg {
+    fill:rgba(0,0,0,1);
+    }
+#orqmataro #eEbody .Release.body li.list1 a,
+#orqmataro #eEbody .Release.body li.list a {
+    color:#000;
+	}
+
+/* Provisional 
+#orqmataro #eEbody .Release.body.info.black .portrait.Orqmataro {*/
+#orqmataro #eEbody .Release.body.info.black .portrait.Orqmataro.e21 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/orquestramataro.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/orquestramataro.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/orquestramataro.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/orquestramataro.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/orquestramataro.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#orqmataro #eEbody .body.Release.statement.withlogo.e21:after {
+    background-image: url(../img/orquestramataro.png);
+    }
+#orqmataro #eEbody .Item .TypeEntity.Schedule.Activity,
+#orqmataro .eEoptionMenu1.instantinfo,
+#orqmataro #eEbottombar .eEbutton {
+    /*border-top:1px solid rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,1);*/
+    background-image: -webkit-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -moz-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -ms-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -o-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: linear-gradient(to top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    }
+#orqmataro #eEbody .Item .TypeEntity.Schedule.Activity {
+    color: #000;
+}
+#orqmataro #eEbottombar .eEbutton {
+    color: #000;
+    text-shadow:none;
+    }
+#orqmataro #eEbottombar .eEbutton.right {
+    border-right:1px solid rgba(0,0,0,0.4);			
+	}
+#orqmataro .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#orqmataro #eEbody .Item:active,
+#orqmataro #repeatItems .Item:active {
+    background:rgba(255,255,255,0.3);
+}
+
+/* ======================================================== */
+/*                       green style                         */
+/* ======================================================== */
+#eEbody .Item .TypeEntity.Football.e28 {
+	background-image:url("../img/arenys.png");
+    background-size:120%;
+}
+#green #eEbody .Release.body.info.black .portrait.Football.e28 {
+    background-size: 120%;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/arenys.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/arenys.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/arenys.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/arenys.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/arenys.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#green #eEbody .body.Release.statement.withlogo.e28:after {
+    background-image: url(../img/arenys.png);
+    background-size: contain;
+    }
+#eEbody .Item .TypeEntity.Skating.e20 {
+	background-image:url("../img/masnou4.svg");
+}
+#green #eEbody .Release.body.info.black .portrait.Skating.e20 {
+    /*background-size: contain;*/
+    background-size: cover;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/masnou3.svg'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/masnou3.svg'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/masnou3.svg'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/masnou3.svg'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/masnou3.svg'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#green #eEbody .body.Release.statement.withlogo.e20:after {
+    background-image: url(../img/masnou4.svg);
+    background-size: contain;
+    }
+#eEbody .Item .TypeEntity.Football.e23 {
+	background-image:url("../img/juventus.png");
+    background-size:80%;
+}
+#green #eEbody .Release.body.info.black .portrait.Football.e23 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/juventus.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/juventus.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/juventus.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/juventus.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/juventus.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#green #eEbody .body.Release.statement.withlogo.e23:after {
+    background-image: url(../img/juventus.png);
+    background-size: contain;
+    }
+
+/* ======================================================== */
+/*                       blue style                         */
+/* ======================================================== */
+#blue .eEtopbar,
+/*#blue .st-refresh-pullrefresh,*/
+#blue .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(2,132,195,0.9);
+    }
+#blue .st-refresh-pullrefresh {
+    background-color:rgba(2,132,195,0.5);
+    }
+/*#blue .Release.body.statement .comunication1 .eEoptionMenu,*/
+#blue .eEntityForm legend,
+#blue .infolink,
+#blue #canFilter span.count,
+#blue .dropdown-menu > li > a.typevers span,
+#blue .dropdown-menu.contextmenu > li > a:focus,
+#blue .dropdown-menu.contextmenu > li > a:hover,
+#blue .dropdown-menu.contextmenu > .active > a:focus,
+#blue .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(2,132,195,1);
+    }
+#blue .eEntityForm legend {
+    border: 1px solid rgba(2,132,195,1);
+	}
+#blue .eEoptionText.moreinfo.selected,
+#blue .eEoptionText.allgender.selected,
+#blue .eEoptionText.femalegender.selected,
+#blue .eEoptionText.malegender.selected,
+#blue .eEoptionText.all.selected,
+#blue .eEoptionText.schedule.selected,
+#blue .eEoptionText.moreinfo.selected:active,
+#blue .eEoptionText.allgender.selected:active,
+#blue .eEoptionText.femalegender.selected:active,
+#blue .eEoptionText.malegender.selected:active,
+#blue .eEoptionText.all.selected:active,
+#blue .eEoptionText.schedule.selected:active {
+    /*border-bottom: 4px solid rgba(49,190,255,1);*/
+    }
+#blue .eEoptionText.moreinfo.selected i,
+#blue .eEoptionText.allgender.selected i,
+#blue .eEoptionText.femalegender.selected i,
+#blue .eEoptionText.malegender.selected i,
+#blue #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(2,132,195,1);
+    }
+#blue .dropdown-menu.contextmenu > li:first-child:before,
+#blue .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(2,132,195,1);
+    border-bottom:none;
+}
+
+#blue .bubble-border:before {
+    border-color: rgba(2,132,195,1) transparent;
+    }
+#blue .bubble-border {
+    border-color: rgba(2,132,195,1);
+    }
+/*#blue .dropdown-menu.contextmenu > li:first-child:before {
+    border-top: 1px solid rgba(2,132,195,1);
+    background-color:rgba(2,132,195,0.4);
+    }*/
+#blue #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#blue #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#blue .eEoptionMenu.menu2 svg,
+#blue .eEoptionMenu1.instantinfo1 svg,
+#blue .eEoptionMenu1.folder svg,
+#blue .eEoptionMenu1.userview svg,
+#blue .eEoptionMenu1.add svg,
+#blue .eEoptionMenu1.email svg,
+#blue .eEoptionMenu1.menu svg,
+#blue .eEoptionMenu1.edit svg,
+#blue .eEoptionMenu1.clone svg,
+#blue .eEoptionMenu1.trash svg {
+    fill:rgba(2,132,195,1);
+    }
+
+/* Provisional */
+#eEbody .Item .TypeEntity.Football.e14 {
+	background-image:url("../img/vilamajor1.png");
+    background-size:90%;
+}
+#blue #eEbody .Release.body.info.black .portrait.Football.e14 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/vilamajor1.png'),-webkit-linear-gradient(top, rgba(2,132,195,1), rgba(2,132,195,0.7));
+	background-image:url('../img/vilamajor1.png'),-moz-linear-gradient(top, rgba(2,132,195,1), rgba(2,132,195,0.7));
+	background-image:url('../img/vilamajor1.png'),-ms-linear-gradient(top, rgba(2,132,195,1), rgba(2,132,195,0.7));
+	background-image:url('../img/vilamajor1.png'),-o-linear-gradient(top, rgba(2,132,195,1), rgba(2,132,195,0.7));
+	background-image:url('../img/vilamajor1.png'),linear-gradient(to bottom, rgba(2,132,195,1), rgba(2,132,195,0.7));
+    }
+#blue #eEbody .body.Release.statement.withlogo.e14:after {
+    background-image: url(../img/vilamajor1.png);
+    }
+#blue #eEbody .Item .TypeEntity.Schedule.Activity,
+#blue .eEoptionMenu1.instantinfo,
+#blue #eEbottombar .eEbutton {
+    background-image: -webkit-linear-gradient(top, rgba(2,132,195,0.8), rgba(2,132,195,1));
+    background-image: -moz-linear-gradient(top, rgba(2,132,195,0.8), rgba(2,132,195,1));
+    background-image: -ms-linear-gradient(top, rgba(2,132,195,0.8), rgba(2,132,195,1));
+    background-image: -o-linear-gradient(top, rgba(2,132,195,0.8), rgba(2,132,195,1));
+    background-image: linear-gradient(to top, rgba(2,132,195,0.8), rgba(2,132,195,1));
+    }
+/*blue #eEbody .Item .TypeEntity.Schedule.Activity .month {
+    background-color: rgba(2,132,195,0.1);
+    }*/
+#blue #eEbottombar99 .eEbutton {
+    color: #fff;
+    text-shadow:1px 1px 0px rgba(0,0,0,1);
+    }
+#blue #eEbottombar .eEbutton.right {
+	border-right:1px solid rgba(0,0,0,0.4);		
+    }
+#blue .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#blue .eEoptionMenu1.instantinfo svg {
+    fill:rgba(255,255,255,1);
+    }
+#blue #eEbody .Item:active,
+#blue #repeatItems .Item:active {
+    background:rgba(2,132,195,0.5);
+}
+
+/* ======================================================== */
+/*                        red style                         */
+/* ======================================================== */
+#red .eEtopbar,
+/*#red .st-refresh-pullrefresh,*/
+#red .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(255,4,4,0.9);
+    }
+#red .st-refresh-pullrefresh {
+    background-color:rgba(255,4,4,0.5);
+    }
+/*#red .Release.body.statement .comunication1 .eEoptionMenu,*/
+#red .eEntityForm legend,
+#red .infolink,
+#red #canFilter span.count,
+#red .dropdown-menu > li > a.typevers span,
+#red .dropdown-menu.contextmenu > li > a:focus,
+#red .dropdown-menu.contextmenu > li > a:hover,
+#red .dropdown-menu.contextmenu > .active > a:focus,
+#red .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(255,4,4,1);
+    }
+#red .eEntityForm legend {
+    border: 1px solid rgba(255,4,4,1);
+	}
+#red .eEoptionText.moreinfo.selected,
+#red .eEoptionText.allgender.selected,
+#red .eEoptionText.femalegender.selected,
+#red .eEoptionText.malegender.selected,
+#red .eEoptionText.all.selected,
+#red .eEoptionText.schedule.selected,
+#red .eEoptionText.moreinfo.selected:active,
+#red .eEoptionText.allgender.selected:active,
+#red .eEoptionText.femalegender.selected:active,
+#red .eEoptionText.malegender.selected:active,
+#red .eEoptionText.all.selected:active,
+#red .eEoptionText.schedule.selected:active {
+    /*border-bottom: 4px solid rgba(255,4,4,1);*/
+    }
+#red .eEoptionText.moreinfo.selected i,
+#red .eEoptionText.allgender.selected i,
+#red .eEoptionText.femalegender.selected i,
+#red .eEoptionText.malegender.selected i,
+#red #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color:rgba(255,4,4,1);
+    }
+#red .dropdown-menu.contextmenu > li:first-child:before,
+#red .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(255,4,4,1);
+    border-bottom:none;
+    }
+#red .bubble-border:before {
+    border-color: rgba(255,4,4,1) transparent;
+    }
+#red .bubble-border {
+    border-color: rgba(255,4,4,1);
+    }
+/*#red .dropdown-menu.contextmenu > li:first-child:before {
+    border-top: 1px solid rgba(255,4,4,1);
+    background-color:rgba(255,4,4,0.4);
+    }*/
+#red #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#red #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#red .eEoptionMenu.menu2 svg,
+#red .eEoptionMenu1.instantinfo1 svg,
+#red .eEoptionMenu1.folder svg,
+#red .eEoptionMenu1.userview svg,
+#red .eEoptionMenu1.add svg,
+#red .eEoptionMenu1.email svg,
+#red .eEoptionMenu1.menu svg,
+#red .eEoptionMenu1.edit svg,
+#red .eEoptionMenu1.clone svg,
+#red .eEoptionMenu1.trash svg {
+    fill:rgba(255,4,4,1);
+    }
+
+/* Provisional */
+#eEbody .Item .TypeEntity.Football.e27 {
+	background-image:url("../img/argentona.png");
+    background-size:50%;
+}
+#red #eEbody .Release.body.info.black .portrait.Football.e27 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/argentona.png'),-webkit-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/argentona.png'),-moz-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/argentona.png'),-ms-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/argentona.png'),-o-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/argentona.png'),linear-gradient(to bottom, rgba(255,4,4,1), rgba(255,4,4,0.7));
+    }
+#red #eEbody .body.Release.statement.withlogo.e27:after {
+    background-image: url(../img/argentona.png);
+    }
+#eEbody .Item .TypeEntity.Athletics.e8 {
+	background-image:url("../img/escut3.png");
+    background-size:124%;
+}
+#red #eEbody .Release.body.info.black .portrait.Athletics.e8 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/escut3.png'),-webkit-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/escut3.png'),-moz-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/escut3.png'),-ms-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/escut3.png'),-o-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/escut3.png'),linear-gradient(to bottom, rgba(255,4,4,1), rgba(255,4,4,0.7));
+    }
+#red #eEbody .body.Release.statement.withlogo.e8:after {
+    background-image: url(../img/escut3.png);
+    }
+#eEbody .Item .TypeEntity.Football.e25 {
+	background-image:url("../img/vilassar.png");
+    background-size:82%;
+}
+#red #eEbody .Release.body.info.black .portrait.Football.e25 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/vilassar.png'),-webkit-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/vilassar.png'),-moz-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/vilassar.png'),-ms-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/vilassar.png'),-o-linear-gradient(top, rgba(255,4,4,1), rgba(255,4,4,0.7));
+	background-image:url('../img/vilassar.png'),linear-gradient(to bottom, rgba(255,4,4,1), rgba(255,4,4,0.7));
+    }
+#red #eEbody .body.Release.statement.withlogo.e25:after {
+    background-image: url(../img/vilassar.png);
+    }
+#red #eEbody .Item .TypeEntity.Schedule.Activity,
+#red .eEoptionMenu1.instantinfo,
+#red #eEbottombar .eEbutton {
+    /*border-top:1px solid rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,1);*/
+    background-image: -webkit-linear-gradient(top, rgba(255,4,4,0.8), rgba(255,4,4,1));
+    background-image: -moz-linear-gradient(top, rgba(255,4,4,0.8), rgba(255,4,4,1));
+    background-image: -ms-linear-gradient(top, rgba(255,4,4,0.8), rgba(255,4,4,1));
+    background-image: -o-linear-gradient(top, rgba(255,4,4,0.8), rgba(255,4,4,1));
+    background-image: linear-gradient(to top, rgba(255,4,4,0.8), rgba(255,4,4,1));
+    }
+/*#red #eEbody .Item .TypeEntity.Schedule.Activity .month {
+    background-color: rgba(255,4,4,0.1);
+    }*/
+#red #eEbottombar99 .eEbutton {
+    color: #fff;
+    text-shadow:1px 1px 0px rgba(0,0,0,1);
+    }
+#red #eEbottombar .eEbutton.right {
+	border-right:1px solid rgba(0,0,0,0.4);			
+	}
+#red .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#red .eEoptionMenu1.instantinfo svg {
+    fill:rgba(255,255,255,1);
+    }
+#red #eEbody .Item:active,
+#red #repeatItems .Item:active {
+    background:rgba(255,4,4,0.4);
+}
+
+/* ======================================================== */
+/*                      black style                         */
+/* ======================================================== */
+
+#black .eEtopbar {
+    background-color:rgba(0,0,0,0.9);
+    }
+#black .st-refresh-pullrefresh {
+    background-color:rgba(248,248,248,0.3);
+    }
+#black .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(248,248,248,1);
+    }
+/*#black .Release.body.statement .comunication1 .eEoptionMenu,*/
+#black .dropdown-menu.contextmenu > li > a:focus,
+#black .dropdown-menu.contextmenu > li > a:hover,
+#black .dropdown-menu.contextmenu > .active > a:focus,
+#black .dropdown-menu.contextmenu > li > a:active {
+    background-color: rgba(255,255,255,0.9);
+    }
+#black .eEntityForm legend,
+#black .infolink,
+#black #canFilter span.count,
+#black .dropdown-menu > li > a.typevers span {
+    background-color: rgba(0,0,0,1);
+    }
+#black .eEntityForm legend {
+    border: 1px solid rgba(0,0,0,1);
+    text-shadow:none;
+	}
+#black .eEoptionText.moreinfo.selected i,
+#black .eEoptionText.allgender.selected i,
+#black .eEoptionText.femalegender.selected i,
+#black .eEoptionText.malegender.selected i,
+#black #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(0,0,0,1);
+    }
+#black .dropdown-menu.contextmenu > li:first-child:before,
+#black .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(255,255,255,1);
+    border-bottom:none;
+}
+#black .bubble-border:before {
+    border-color: rgba(0,0,0,0.9) transparent;
+    }
+#black .bubble-border {
+    border-color: rgba(0,0,0,0.9);
+    }
+/*#black .dropdown-menu.contextmenu > li:first-child:before {
+    border-top: 1px solid rgba(248,248,248,1);
+    background-color:rgba(248,248,248,0.4);
+    }*/
+#black #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#black #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#black .eEoptionMenu.menu2 svg,
+#black .eEoptionMenu1.instantinfo1 svg,
+#black .eEoptionMenu1.instantinfo svg,
+#black .eEoptionMenu1.folder svg,
+#black .eEoptionMenu1.userview svg,
+#black .eEoptionMenu1.add svg,
+#black .eEoptionMenu1.email svg,
+#black .eEoptionMenu1.menu svg,
+#black .eEoptionMenu1.edit svg,
+#black .eEoptionMenu1.clone svg,
+#black .eEoptionMenu1.trash svg {
+    fill:rgba(0,0,0,1);
+    }
+#black #eEbody .Release.body li.list1 a,
+#black #eEbody .Release.body li.list a {
+    color:#000;
+	}
+
+/* Provisional */
+#eEbody .Item .TypeEntity.Athletics.e7 {
+	background-image:url("../img/cal18.svg");
+    background-size:77%;
+}
+#black #eEbody .Release.body.info.black .portrait.Athletics.e7 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/cal18.svg'),-webkit-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+	background-image:url('../img/cal18.svg'),-moz-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+	background-image:url('../img/cal18.svg'),-ms-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+	background-image:url('../img/cal18.svg'),-o-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+	background-image:url('../img/cal18.svg'),linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.9));
+    }
+#black #eEbody .body.Release.statement.withlogo.e7:after {
+    background-image: url(../img/cal18.svg);
+    /*background-size:250px;
+    background-position-y:160px;*/
+    }
+#black #eEbody .Item .TypeEntity.Schedule.Activity,
+#black .eEoptionMenu1.instantinfo,
+#black #eEbottombar .eEbutton {
+    /*border-top:1px solid rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,1);*/
+    background-image: -webkit-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -moz-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -ms-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: -o-linear-gradient(top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    background-image: linear-gradient(to top, rgba(248,248,248,0.8), rgba(248,248,248,1));
+    }
+#black #eEbody .Item .TypeEntity.Schedule.Activity {
+    color: #000;
+}
+/*#black #eEbody .Item .TypeEntity.Schedule.Activity .month {
+    background-color: white;
+    }*/
+#black #eEbottombar .eEbutton {
+    color: #000;
+    text-shadow:none;
+    }
+#black #eEbottombar .eEbutton.right {
+    border-right:1px solid rgba(0,0,0,0.4);			
+	}
+#black .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+/*#black .eEoptionMenu1.instantinfo svg {
+    fill:rgba(0,0,0,1);
+    }*/
+#black #eEbody .Item:active,
+#black #repeatItems .Item:active {
+    background:rgba(255,255,255,0.3);
+}
+
+/* ======================================================== */
+/*                      yellow style                         */
+/* ======================================================== */
+
+#yellow .eEtopbar {
+    background-color:rgba(250,230,0,0.9);
+    }
+#yellow .st-refresh-pullrefresh {
+    background-color:rgba(250,230,0,0.3);
+    }
+#yellow .eEntityForm legend,
+#yellow .dropdown-menu.contextmenu > li > a {
+    background-color:rgba(250,230,0,1);
+    }
+#yellow #canFilter span.count,
+#yellow .dropdown-menu > li > a.typevers span {
+    background-color: rgba(250,230,0,1);
+    color:rgba(0,0,0,1);
+    }
+/*#black .Release.body.statement .comunication1 .eEoptionMenu,
+#yellow .dropdown-menu > li > a.typevers span,*/
+#yellow .infolink,
+#yellow .dropdown-menu.contextmenu > li > a:focus,
+#yellow .dropdown-menu.contextmenu > li > a:hover,
+#yellow .dropdown-menu.contextmenu > .active > a:focus,
+#yellow .dropdown-menu.contextmenu > li > a:active {
+    /*background-color: rgba(255,255,255,0.9);*/
+    background-color: rgba(255,4,4,1);
+    }
+#yellow .eEntityForm legend {
+    border: 1px solid rgba(250,230,0,1);
+    color:rgba(100, 100, 100, 1);
+    text-shadow:none;
+	}
+#yellow .eEoptionText.moreinfo.selected,
+#yellow .eEoptionText.allgender.selected,
+#yellow .eEoptionText.femalegender.selected,
+#yellow .eEoptionText.malegender.selected,
+#yellow .eEoptionText.all.selected,
+#yellow .eEoptionText.schedule.selected,
+#yellow .eEoptionText.moreinfo.selected:active,
+#yellow .eEoptionText.allgender.selected:active,
+#yellow .eEoptionText.femalegender.selected:active,
+#yellow .eEoptionText.malegender.selected:active,
+#yellow .eEoptionText.all.selected:active,
+#yellow .eEoptionText.schedule.selected:active {
+    /*border-bottom: 4px solid rgba(255,4,4,1);*/
+    }
+#yellow .eEoptionText.moreinfo.selected i,
+#yellow .eEoptionText.allgender.selected i,
+#yellow .eEoptionText.femalegender.selected i,
+#yellow .eEoptionText.malegender.selected i,
+#yellow #eEbody .Release.body.info.black .sheetContainer td.subtitle {
+    color: rgba(0,0,0,1);
+    }
+#yellow .dropdown-menu.contextmenu > li:first-child:before,
+#yellow .dropdown-menu.contextmenu > li:first-child:after {
+    border: 3px solid rgba(250,230,0,1);
+    border-bottom:none;
+    }
+#yellow .bubble-border:before {
+    border-color: rgba(250,230,0,0.9) transparent;
+    }
+#yellow .bubble-border {
+    border-color: rgba(250,230,0,0.9);
+    }
+#yellow #eEbody .Release.body.info.black .sheetContainer td.icon.id svg,
+#yellow #eEbody .Release.body.info.black .sheetContainer td.icon.arrow svg,
+#yellow .eEoptionMenu.menu2 svg,
+#yellow .eEoptionMenu1.instantinfo1 svg,
+/*#yellow .eEoptionMenu1.instantinfo svg,*/
+#yellow .eEoptionMenu1.folder svg,
+#yellow .eEoptionMenu1.userview svg,
+#yellow .eEoptionMenu1.add svg,
+#yellow .eEoptionMenu1.email svg,
+#yellow .eEoptionMenu1.menu svg,
+#yellow .eEoptionMenu1.edit svg,
+#yellow .eEoptionMenu1.clone svg,
+#yellow .eEoptionMenu1.trash svg {
+    fill:rgba(100,100,100,1);
+    }
+#yellow .eEoptionMenu1.instantinfo svg {
+    fill:rgba(255,4,4,1);
+    }
+#yellow .eEoptionMenu.menu {
+	/*background-image:url("../img/overflow6.svg");*/
+	background-image:url("../img/menu1.svg");
+    }
+#yellow #eEbody .Release.body li.list1 a,
+#yellow #eEbody .Release.body li.list a {
+    color:#000;
+	}
+#yellow #eEbody .Release.body li.list1 a:focus,
+#yellow #eEbody .Release.body li.list1 a:hover,
+#yellow #eEbody .Release.body li.list1 a:active,
+#yellow #eEbody .Release.body li.list a:focus,
+#yellow #eEbody .Release.body li.list a:hover,
+#yellow #eEbody .Release.body li.list a:active {
+    color:#fff;
+	}
+
+/* Provisional */
+#eEbody .Item .TypeEntity.Football.e17 {
+	background-image:url("../img/udcirera.svg");
+    background-size:74%;
+}
+#yellow #eEbody .Release.body.info.black .portrait.Football.e17 {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/udcirera.svg'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/udcirera.svg'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/udcirera.svg'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/udcirera.svg'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/udcirera.svg'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#yellow #eEbody .body.Release.statement.withlogo.e17:after {
+    background-image: url(../img/udcirera.svg);
+    }
+/*#yellow #eEbody .Release.body.info.black .portrait.Football.Mataro {
+    background-size: contain;
+    background-color:rgba(0,0,0,1);
+ 	background-image:url('../img/mataro.png'),-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/mataro.png'),-moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/mataro.png'),-ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/mataro.png'),-o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-image:url('../img/mataro.png'),linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+    }
+#yellow #eEbody .body.Release.statement.withlogo.Mataro:after {
+    background-image: url(../img/mataro.png);
+    }*/
+#yellow #eEbody .Item .TypeEntity.Schedule.Activity,
+#yellow .eEoptionMenu1.instantinfo,
+#yellow #eEbottombar .eEbutton {
+    background-image: -webkit-linear-gradient(top, rgba(250,230,0,0.8), rgba(250,230,0,1));
+    background-image: -moz-linear-gradient(top, rgba(250,230,0,0.8), rgba(250,230,0,1));
+    background-image: -ms-linear-gradient(top, rgba(250,230,0,0.8), rgba(250,230,0,1));
+    background-image: -o-linear-gradient(top, rgba(250,230,0,0.8), rgba(250,230,0,1));
+    background-image: linear-gradient(to top, rgba(250,230,0,0.8), rgba(250,230,0,1));
+    }
+#yellow #eEbody .Item .TypeEntity.Schedule.Activity {
+    color: #000;
+    }
+#yellow #eEbottombar .eEbutton {
+    /*color: #000;*/
+    color: #e20613;
+    text-shadow:none;
+    }
+#yellow #eEbottombar .eEbutton.right {
+    border-right:1px solid rgba(0,0,0,0.4);			
+	}
+#yellow .eEoptionMenu1.instantinfo {
+    border:none;
+    }
+#yellow #eEbody .Item:active,
+#yellow #repeatItems .Item:active {
+    background:rgba(250,230,0,0.3);
+}
+#yellow .eEtopbar .eEuserbar .eEuserInfo {
+    text-shadow: none;
+    color:#000;
+    }
+
+/* ======================================================== */
+/*                      common style                         */
+/* ======================================================== */
+#blue1 #eEbottombar .eEbutton.green,
+#orqmataro #eEbottombar .eEbutton.green,
+#secot #eEbottombar .eEbutton.green,
+#yellow #eEbottombar .eEbutton.green,
+#blue #eEbottombar .eEbutton.green,
+#red #eEbottombar .eEbutton.green,
+#black #eEbottombar .eEbutton.green {
+    color:#fff;
+    border-top:1px solid rgba(4,255,255,0);
+	background-color:rgba(4,255,255,0.3);
+	background-image:-webkit-linear-gradient(bottom, rgba(4,255,255,0), rgba(4,255,255,0.3));
+	background-image:-moz-linear-gradient(bottom, rgba(4,255,255,0), rgba(4,255,255,0.3));
+	background-image:-ms-linear-gradient(bottom, rgba(4,255,255,0), rgba(4,255,255,0.3));
+	background-image:-o-linear-gradient(bottom, rgba(4,255,255,0), rgba(4,255,255,0.3));
+	background-image:linear-gradient(to top, rgba(4,255,255,0), rgba(4,255,255,0.3));
+    }
+#blue1 #eEbottombar .eEbutton.red,
+#orqmataro #eEbottombar .eEbutton.red,
+#secot #eEbottombar .eEbutton.red,
+#yellow #eEbottombar .eEbutton.red,
+#blue #eEbottombar .eEbutton.red,
+#red #eEbottombar .eEbutton.red,
+#black #eEbottombar .eEbutton.red {
+    color:#fff;
+	border-top:1px solid #C10101;
+    background-color: rgba(0,0,0,1);
+    background-image: -webkit-linear-gradient(bottom, #C10101, #F62626);
+    background-image: -moz-linear-gradient(bottom, #C10101, #F62626);
+    background-image: -ms-linear-gradient(bottom, #C10101, #F62626);
+    background-image: -o-linear-gradient(bottom, #C10101, #F62626);
+    background-image: linear-gradient(to top, #C10101, #F62626);
+    }
+#blue1 .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#orqmataro .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#secot .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#yellow .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#blue .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#red .comunication1 .dropdown-menu.contextmenu > li:first-child:before,
+#black .comunication1 .dropdown-menu.contextmenu > li:first-child:before {
+    border-top: none;
+    background-color:transparent;
+    }
+#blue1 .eEoptionMenu1.folder.logoentity svg,
+#orqmataro .eEoptionMenu1.folder.logoentity svg,
+#secot .eEoptionMenu1.folder.logoentity svg,
+#yellow .eEoptionMenu1.folder.logoentity svg,
+#blue .eEoptionMenu1.folder.logoentity svg,
+#red .eEoptionMenu1.folder.logoentity svg,
+#black .eEoptionMenu1.folder.logoentity svg {
+    fill:rgba(255,255,255,1);
+    }
+#blue1 .eEntityForm fieldset.standout legend,
+#orqmataro .eEntityForm fieldset.standout legend,
+#secot .eEntityForm fieldset.standout legend,
+#yellow .eEntityForm fieldset.standout legend,
+#red .eEntityForm fieldset.standout legend,
+#black .eEntityForm fieldset.standout legend,
+#blue .eEntityForm fieldset.standout legend {
+    background-color: #808080;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+}
+
+/* ======================================================== */
+/*                       Publicity                          */
+/* ======================================================== */
+
+/* ------------ Mostrar Contenidor Publicitat ------------*/
+@media only screen and (min-height:481px) {
+    /*#blue .eEwrapper.addPublicity,
+#red .eEwrapper.addPublicity,
+#yellow .eEwrapper.addPublicity,
+#green .eEwrapper.addPublicity {*/
+    .eEwrapper.addPublicity {
+        bottom: 70px;
+    }
+        /*#blue #content-slider,
+#red #content-slider,
+#yellow #content-slider,
+#green #content-slider {
+    display: block;
+    }*/
+        /*#blue .eEwrapper.addPublicity .eEoptionMenu1.match,
+#red .eEwrapper.addPublicity .eEoptionMenu1.match,
+#yellow .eEwrapper.addPublicity .eEoptionMenu1.match,
+#green .eEwrapper.addPublicity .eEoptionMenu1.match {*/
+        .eEwrapper.addPublicity .eEoptionMenu1.match {
+            bottom: 204px;
+        }
+        /*#blue .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+#red .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+#yellow .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+#green .eEwrapper.addPublicity .eEoptionMenu1.instantinfo {*/
+        .eEwrapper.addPublicity .eEoptionMenu1.instantinfo {
+            bottom: 130px;
+        }
+}
+@media only screen and (min-width:600px) and (min-height:641px) {
+    /*#blue .eEwrapper.addPublicity .eEoptionMenu1.match,
+    #red .eEwrapper.addPublicity .eEoptionMenu1.match,
+    #yellow .eEwrapper.addPublicity .eEoptionMenu1.match,
+    #green .eEwrapper.addPublicity .eEoptionMenu1.match {*/
+    .eEwrapper.addPublicity .eEoptionMenu1.match {
+        bottom:222px;
+    }
+    /*#blue .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+    #red .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+    #yellow .eEwrapper.addPublicity .eEoptionMenu1.instantinfo,
+    #green .eEwrapper.addPublicity .eEoptionMenu1.instantinfo {*/
+    .eEwrapper.addPublicity .eEoptionMenu1.instantinfo {
+        bottom:144px;
+    }
+}
+ 
+/* ---------- Fi Mostrar Contenidor Publicitat ----------- */
+
+/*#blue #slider li,
+#red #slider li,
+#green #slider li {*/
+#slider li {
+    top: 0px;
+    }
+/*#blue #slider li #second,
+#blue #slider li #third,
+#blue #slider li #fourth,
+#blue #slider li #fifth,
+#red #slider li #second,
+#red #slider li #third,
+#red #slider li #fourth,
+#red #slider li #fifth,
+#green #slider li #second,
+#green #slider li #third,
+#green #slider li #fourth,
+#green #slider li #fifth {
+    display:none;
+    }*/
+/*#green #slider #first .logo {
+    background-color:rgba(0,0,0,1);
+	background-image:url("../img/topbarcos.svg"), -webkit-linear-gradient(right, rgba(232,126,36,1), rgba(237,169,31,1));
+	background-image:url("../img/topbarcos.svg"), -moz-linear-gradient(right, rgba(232,126,36,1), rgba(237,169,31,1));
+	background-image:url("../img/topbarcos.svg"), -ms-linear-gradient(right, rgba(232,126,36,1), rgba(237,169,31,1));
+	background-image:url("../img/topbarcos.svg"), -o-linear-gradient(right, rgba(232,126,36,1), rgba(237,169,31,1));
+	background-image:url("../img/topbarcos.svg"), linear-gradient(to right, rgba(232,126,36,1), rgba(237,169,31,1));
+    background-size:contain;
+    }*/
+/*
+#red #slider #first .logo {
+    background-color:rgba(255,255,255,1);
+    background-image: url('../img/xapo.png');
+    background-size:contain;
+    }
+#blue #slider #first .logo {
+    background-color:rgba(255,255,255,1);
+    background-image: url('../img/souldpark.png');
+    background-size:contain;
+    }
+#yellow #slider #first .logo {
+    background-color:rgba(255,255,255,1);
+    background-image: url('../img/inlingua.gif');
+    background-size:contain;
+    }
+#yellow #slider #second .logo {
+    background-color:rgba(204,7,30,1);
+    background-image: url('../img/logo_estrella.png');
+    background-size:contain;
+    }
+#yellow #slider #third .logo {
+    background-color:rgba(255,255,255,1);
+    background-image: url('../img/inlingua.gif');
+    background-size:contain;
+    }
+#yellow #slider #fourth .logo {
+    background-color:rgba(204,7,30,1);
+    background-image: url('../img/logo_estrella.png');
+    background-size:contain;
+    }
+#yellow #slider #fifth .logo {
+    background-color:rgba(255,255,255,1);
+    background-image: url('../img/logo_lacaixa.png');
+    background-size:contain;
+    }
+#yellow #slider li.firstanimation {
+	-moz-animation:cycle 25s linear infinite;	
+	-webkit-animation:cycle 25s linear infinite;
+	animation:cycle 25s linear infinite;	
+    }
+#yellow #slider li.secondanimation {
+	-moz-animation:cycletwo 25s linear infinite;
+	-webkit-animation:cycletwo 25s linear infinite;	
+	animation:cycletwo 25s linear infinite;    	
+    }
+#yellow #slider li.thirdanimation {
+	-moz-animation:cyclethree 25s linear infinite;
+	-webkit-animation:cyclethree 25s linear infinite;
+	animation:cyclethree 25s linear infinite;	    	
+    }
+#yellow #slider li.fourthanimation {
+	-moz-animation:cyclefour 25s linear infinite;
+	-webkit-animation:cyclefour 25s linear infinite;
+	animation:cyclefour 25s linear infinite;		
+    }
+#yellow #slider li.fifthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;
+	animation:cyclefive 25s linear infinite;    	
+    }
+*/
+#slider li.firstanimation {
+	-moz-animation:cycle 25s linear infinite;	
+	-webkit-animation:cycle 25s linear infinite;
+	animation:cycle 25s linear infinite;	
+    }
+#slider li.secondanimation {
+	-moz-animation:cycletwo 25s linear infinite;
+	-webkit-animation:cycletwo 25s linear infinite;	
+	animation:cycletwo 25s linear infinite;    	
+    }
+#slider li.thirdanimation {
+	-moz-animation:cyclethree 25s linear infinite;
+	-webkit-animation:cyclethree 25s linear infinite;
+	animation:cyclethree 25s linear infinite;	    	
+    }
+#slider li.fourthanimation {
+	-moz-animation:cyclefour 25s linear infinite;
+	-webkit-animation:cyclefour 25s linear infinite;
+	animation:cyclefour 25s linear infinite;		
+    }
+#slider li.fifthanimation {
+	-moz-animation:cyclefive 25s linear infinite;
+	-webkit-animation:cyclefive 25s linear infinite;
+	animation:cyclefive 25s linear infinite;    	
+    }
+
+/*#blue #slider #first .logo {
+    background-color:rgba(0,165,231,1);
+    background-image: url('../img/iluropark.png');
+    background-size:contain;
+    }
+
+#yellow #slider #third .logo {
+    background-color:rgba(245,180,14,1);
+	background-image:url("../img/marmoles3.svg"), -webkit-linear-gradient(right, rgba(253,178,9,1), rgba(247,182,16,1));
+	background-image:url("../img/marmole3s.svg"), -moz-linear-gradient(right, rgba(253,178,9,1), rgba(247,182,16,1));
+	background-image:url("../img/marmole3s.svg"), -ms-linear-gradient(right, rgba(253,178,9,1), rgba(247,182,16,1));
+	background-image:url("../img/marmoles3.svg"), -o-linear-gradient(right, rgba(253,178,9,1), rgba(247,182,16,1));
+	background-image:url("../img/marmoles3.svg"), linear-gradient(to right, rgba(253,178,9,1), rgba(247,182,16,1));
+    background-size:contain;
+    }*/
+/* Comunicats Cirera
+#yellow #eEbody .Item .TypeEntity.Board {
+	background-image:url('../img/udcirera.svg');
+    background-size:100%;
+	}
+#yellow #eEbody .Item .TypeEntity.Board.Schedule {
+	background-image:url("../img/udcirera.svg"),url("../img/schedule3.svg");
+	background-position:center,top left;
+    background-size:100%,auto;
+	}
+#yellow #eEbody .Item .TypeEntity.Comunicat {
+	background-image:url("../img/udcirera.svg");
+    background-size:100%;
+	}
+#yellow #eEbody .Item .TypeEntity.Comunicat.Schedule {
+	background-image:url("../img/udcirera.svg"),url("../img/schedule3.svg");
+	background-position:center,top left;
+    background-size:100%,auto;
+	}
+#yellow #eEbody .Item .TypeEntity.Comunicat.Payment {
+	background-image:url("../img/udcirera.svg"),url("../img/payment2.svg");
+	background-position:center,bottom right;
+    background-size:100%,auto;      	
+	}	
+#yellow #eEbody .Item .TypeEntity.Comunicat.Schedule.Payment {
+	background-image:url("../img/udcirera.svg"),url("../img/schedule3.svg"),url("../img/payment2.svg");
+	background-position:center,top left,bottom right;
+    background-size:100%,auto,auto;      	
+	}
+#yellow #eEbody .Item .TypeEntity.Express {
+	background-image:url("../img/udcirera.svg");
+    background-size:100%;
+	}
+#yellow #eEbody .Item .TypeEntity.Express.Schedule {
+	background-image:url("../img/udcirera.svg"),url("../img/schedule3.svg");
+	background-position:center,top left;
+    background-size:100%,auto;
+	} */
+/* Fi Comunicats Cirera  Juventus #1FA78F */
+
+#orqmataro #eEntityLoader1 .loader:before,
+#orqmataro .loader:after,
+#orqmataro .loader:before,
+#orqmataro .loader:after {
+    background-image: url('../img/orquestramataro2.png');
+    background-size:contain;
+}
+/*#yellow #eEntityLoader1 .loader:before,
+#yellow .loader:after,
+#yellow .loader:before,
+#yellow .loader:after {
+    background-image: url('../img/sentimientoamarillo.svg');
+    background-size: contain;
+}*/
+
+/*#yellow #eEntityLoader1 .loader,
+#yellow #eEntityLoader .loader {
+    width: 300px;
+    height: 300px;
+}*/
