@@ -1,6 +1,6 @@
 define([],
     function () {
-
+        // Need by Durandal
         var activate = function() {
 
         };
