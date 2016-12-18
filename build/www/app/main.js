@@ -13685,7 +13685,7 @@ requirejs.config({
         "text": "../bower_components/requirejs-text/text",
         "Q": "../bower_components/q/q",
      },
-    waitSeconds: 0, // 0 = desactivat el Timeout 
+    waitSeconds: 0, 
     shim: {
  
     }
@@ -13741,7 +13741,7 @@ function ($,  app, binder, viewLocator, system, dialog) {
     }
     function startApp() {
 
-        app.title = 'Hola Mundo!';
+        app.title = 'Neix Tags';
 
         //specify which plugins to install and their configuration
         app.configurePlugins({
@@ -13767,7 +13767,7 @@ function ($,  app, binder, viewLocator, system, dialog) {
 
 define('viewmodels/notfound',[],
     function () {
-
+        // Need by Durandal
         var activate = function() {
 
         };
