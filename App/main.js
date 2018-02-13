@@ -6,8 +6,12 @@ requirejs.config({
         "transitions": "../bower_components/Durandal/js/transitions",
         "jquery": "../bower_components/jquery/dist/jquery",
         "knockout": "../bower_components/knockout/dist/knockout",
+        "mapping": "../bower_components/knockout.mapping/knockout.mapping",
         "text": "../bower_components/requirejs-text/text",
         "Q": "../bower_components/q/q",
+        "i18next": "../scripts/i18next.amd.withJQuery-1.7.4",
+        "moment": "../bower_components/moment/min/moment-with-locales"
+        
      },
     waitSeconds: 0, 
     shim: {
@@ -20,11 +24,10 @@ require(["knockout"], function (ko) {
     window.ko = ko;
 });
 
-define([ 'jquery', 'durandal/app', 'durandal/binder', 'durandal/viewLocator', 'durandal/system', 'plugins/dialog'],
-function ($,  app, binder, viewLocator, system, dialog) {
+define([ 'jquery', 'durandal/app', 'durandal/binder', 'durandal/viewLocator', 'durandal/system', 'plugins/dialog', 'services/indexDb'],
+function ($,  app, binder, viewLocator, system, dialog, indexDbService) {
 
     'use strict';
-
     var currentLanguage = 'es-ES',
          i18NOptions = null,
         initPromise = null,
@@ -40,11 +43,8 @@ function ($,  app, binder, viewLocator, system, dialog) {
 
     try {
         $( document ).ready(function() {
-            alert("Document Ready");
             if(sessionStorage.isPhonegap){
-                alert("Before Device Ready")
                 document.addEventListener('deviceready', function () {
-                    alert ("after device Ready");
                     main();
                 });
             } else {
@@ -61,6 +61,10 @@ function ($,  app, binder, viewLocator, system, dialog) {
         try {
             startApp().then(function () {
                 app.trigger('app:start');
+                indexDbService.setUser("test");
+                return indexDbService.open("linx", 2).then(function(isOk){
+                    return isOk;
+                });                 
             });
         } catch (err) {
             alert("No es posible iniciar el app: " + err.message, err, "main.exception.onInit", true);

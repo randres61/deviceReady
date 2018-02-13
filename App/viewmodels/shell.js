@@ -4,8 +4,8 @@
         var self = this;
         var routes =
         [
-            { route: new RegExp('index.html', "i"), moduleId: 'plugins', title: 'Plugins', nav: true, hash: "#plugins" },
-            { route: '', moduleId: 'plugins', title: 'Plugins', nav: true, hash: "#plugins" }
+            { route: new RegExp('index.html', "i"), moduleId: 'Entity/resumen', title: 'Plugins', nav: true, hash: "#plugins" },
+            { route: '', moduleId: 'Entity/resumen', title: 'Plugins', nav: true, hash: "#plugins" }
         ];
 
 

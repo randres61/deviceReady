@@ -1,0 +1,8 @@
+<div id="content" data-bind="with: resumen" style="width: 100%; text-align: center; font-size: 30px;">
+    <div id="totalTeams" data-bind="text: totalTeams" >...Total Equips</div>
+    <div id="totalLocation" data-bind="text: totalLocations">...Total Location</div>
+    <div id="totalPerson" data-bind="text: totalPersons" >...Total Persons</div>
+    <div id="teams" data-bind="foreach:userTeams" >
+        <span data-bind="text:teamName">..TeamName</span>
+    </div>
+</div>

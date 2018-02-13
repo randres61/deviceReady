@@ -14,6 +14,7 @@
     "bower_components"
   ],
   "dependencies": {
+    "knockout.mapping": "https://github.com/SteveSanderson/knockout.mapping.git#2.4.1",
     "Durandal": "durandal#^2.1.0",
     "knockout": "^3.4.0",
     "jquery": "^2.2.4",
